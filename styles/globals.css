@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+    @apply bg-[#06202A] text-gray-300;
+  }
+}
+
+.header-logo {
+  filter: invert(67%) sepia(61%) saturate(415%) hue-rotate(107deg) brightness(86%) contrast(99%);
+}
